@@ -2,4 +2,4 @@
 org = "demodevant"
 name = "greeter_service"
 version = "1.0.0"
-distribution = "2201.14.0-SNAPSHOT"
+distribution = "2201.13.2"
