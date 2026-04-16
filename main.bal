@@ -8,9 +8,4 @@ service /greet on httpListener {
     resource function get .() returns string {
         return "Hello, Welcome to the Greeter Service!";
     }
-
-    // Greet a specific person by name
-    resource function get [string name]() returns string {
-        return string `Hello, ${name}! Welcome to the Greeter Service!`;
-    }
 }
